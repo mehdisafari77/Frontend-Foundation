@@ -39,13 +39,15 @@
 			</div>
 		</div>
 	</section>
-	<Section>
-		<div class="max-width">
+
+	<!-- Support Message -->
+	<Section class='support'>
+		<div class="flex">
 			<h2 class="title" style='color: #fff'>Support Messages</h2>
 			<ul class='compliment'>
-				<li class='text-1'>You are supported here!</li>
-				<li class='text-1'>You can do it!</li>
-				<li class='text-1'>We are here for you</li>
+				<li class='text-1' style='color: orange; margin-bottom: 5px'>You are supported here!</li>
+				<li class='text-1' style='color: yellow; margin-bottom: 5px''>You can do it!</li>
+				<li class='text-1' style='color: red; margin-bottom: 5px''>We are here for you</li>
 			</ul>
 		</div>
 	</Section>
@@ -73,8 +75,8 @@
                         <div class="field textarea">
                             <textarea cols="30" rows="10" placeholder="Message.." required></textarea>
                         </div>
-                        <div id='send' class="button-area">
-                            <button onClick='sendMessage' id='sendm'>Send message</button>
+                        <div class="button-area">
+                            <button onClick='alertMessage()' id='send'>Send message</button>
                         </div>
 						<div class="text" style='margin-top: 30px;'>Where did you hear about us?</div>
 						<div class='checkbox'>

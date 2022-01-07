@@ -4,10 +4,9 @@ function complimentMessage(x){
     alert('Hi! My name is Alex The Cat')
 }
 
-catImage.addEventListener('mouseover', complimentMessage)
-
 // Send form
-let form = document.getElementById('send');
-function sendMessage() {
-	alert('Your message has been sent!, Thank you');
+let sendBtn = document.getElementById('send');
+function alertMessage() {
+	console.log('button working')
+	alert('Your message has been sent! Thank you!');
 }
