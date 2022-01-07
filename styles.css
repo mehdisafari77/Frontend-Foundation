@@ -154,7 +154,31 @@ body {
     color: orange;
     background: none;
 }
-
+.button-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+button{
+	color: #fff;
+	display: block;
+	width: 160px!important;
+	height: 45px;
+	outline: none;
+	font-size: 14px;
+	font-weight: 500;
+	border-radius: 6px;
+	cursor: pointer;
+	flex-wrap: nowrap;
+	background: orange;
+	border: 2px solid orange;
+	transition: all 0.3s ease;
+	margin: 10px;
+  }
+  button:hover{
+	color: orange;
+	background: none;
+  }
 
 /* skills section styling */
 .skills{
@@ -246,7 +270,8 @@ body {
     content: "Fill It Out";
 }
 .contact .contact-content .column{
-    width: calc(50% - 30px);
+	margin-top: 20px;
+    width: calc(100% - 30px);
 }
 .contact .contact-content .text{
     font-size: 20px;
