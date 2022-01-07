@@ -13,7 +13,7 @@ section{
     padding: 0 60px;
     margin: auto;
 }
-.about, .skills, button, footer{
+.about, .skills, button, footer, .interests{
     font-family: 'Poppins', sans-serif;
 }
 section .title{
@@ -66,7 +66,7 @@ body {
 }
 .dropdown.sticky{
     padding: 15px 0;
-    background: var(--green);
+    background: green;
 }
 .navbar .max-width{
     display: flex;
@@ -79,7 +79,7 @@ body {
     font-weight: 600;
 }
 .dropdown .logo a span{
-    color: var(--green);
+    color: green;
     transition: all 0.3s ease;
 }
 .dropdown.sticky .logo a span{
@@ -98,7 +98,7 @@ body {
     transition: color 0.3s ease;
 }
 .navbar .menu li a:hover{
-    color: var(--green);
+    color: green;
 }
 .navbar.sticky .menu li a:hover{
     color: #fff;
@@ -132,4 +132,85 @@ input {
 
 img {
 	max-width: 300px;
+}
+
+/* skills section styling */
+.skills{
+    color:#fff;
+}
+.skills .title::before{
+    color:#111;
+}
+.skills .title::after{
+    background: #fff;
+    content: "What I Know";
+}
+.skills .skills-content .column{
+    width: calc(50% - 30px);
+}
+.skills .skills-content .left .text{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.skills .skills-content .left p{
+    text-align: justify;
+}
+.skills .skills-content .left a{
+    display: inline-block;
+    background: green;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 16px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid green;
+    transition: all 0.3s ease;
+}
+.skills .skills-content .left a:hover{
+    color: green;
+    background: none;
+}
+.skills .skills-content .right .bars{
+    margin-bottom: 15px;
+}
+.skills .skills-content .right .info{
+    display: flex;
+    margin-bottom: 5px;
+    align-items: center;
+    justify-content: space-between;
+}
+.skills .skills-content .right span{
+    font-weight: 500;
+    font-size: 18px;
+}
+.skills .skills-content .right .line{
+    height: 5px;
+    width: 100%;
+    background: lightgrey;
+    position: relative;
+}
+.skills .skills-content .right .line::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: green;
+}
+.skills-content .right .html::before{
+    width: 40%;
+}
+.skills-content .right .css::before{
+    width: 55%;
+}
+.skills-content .right .js::before{
+    width: 30%;
+}
+.skills-content .right .swift::before{
+    width: 65%;
+}
+.skills-content .right .mysql::before{
+    width: 10%;
 }
