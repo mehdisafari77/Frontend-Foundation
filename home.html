@@ -57,13 +57,10 @@
 
         </div>
         <div class="column right">
-                <form action="#">
+                <form>
                     <div class="fields">
                         <div class="field name">
                             <input type="text" placeholder="Name" required>
-                        </div>
-                        <div class="field email">
-                            <input type="email" placeholder="Email" required>
                         </div>
                     </div>
                         <div class="field">
@@ -72,8 +69,8 @@
                         <div class="field textarea">
                             <textarea cols="30" rows="10" placeholder="Message.." required></textarea>
                         </div>
-                        <div class="button-area">
-                            <button id='send' type="submit">Send message</button>
+                        <div id='send' class="button-area">
+                            <button onClick='sendMessage' id='sendm'>Send message</button>
                         </div>
 						<div class="text" style='margin-top: 30px;'>Where did you hear about us?</div>
 						<div class='checkbox'>

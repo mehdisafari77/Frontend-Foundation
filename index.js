@@ -1,5 +1,6 @@
 
 
+
 // Compliment Message on Mouseover
 let catImage = document.getElementById("#cat-image");
 function complimentMessage(e){
@@ -9,9 +10,7 @@ function complimentMessage(e){
 catImage.addEventListener('mouseover', complimentMessage)
 
 // Send form
-function handleSubmit(evt) {
-	evt.preventDefault();
+function sendMessage() {
 	alert('Your message has been sent!, Thank you');
 }
 let form = document.getElementById('send');
-form.addEventListener('submit', handleSubmit);

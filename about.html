@@ -5,28 +5,36 @@
 	<link href="styles.css" rel="stylesheet">
 </head>
 <body>
-	<nav>
-		<ol>
-	        <li class="crumb"><a href="./home.html">Home</a></li>
-	        <li class="crumb"><a href="./profile.html">Profile</a></li>
-	        <li class="crumb"><a href="./about.html">About</a></li>
-	    </ol>
-	</nav>
+    <!-- Navbar -->
+    <nav class="nav" class="navbar">    
+        <div class="max-width">
+                <div class="dropdown-content">
+                    <ul class="menu">
+                        <li><a href="./home.html" class="menu-btn">Home</a></li>
+                        <li><a href="./profile.html">Founder Profile</a></li>
+                    </ul>
+                </div> 
+            </div>
+        </div>
+    </nav>
 
-	<content>
-		<h1>About</h1>
-
-		<p>
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
-		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse 
-		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat 
-		non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-		
-		</p>
-
-	</content>
-
+	<!-- abouts section -->
+    <section class="about" id="about">
+        <div class="max-width">
+            <h2 class="title">About Me</h2>
+            <div class="about-content">
+                <div class="column right">
+                    <div class="text">I'm Mehdi and I'm a <span class="typing-2"></span></div>
+                    <p>I am fullstack developer experienced in both mobile web applications, mainly swift for IOS and am in training for web application experience. I am based in San Francisco, CA. I really enjoy creative design alongside development processes in order to create unique and exciting products as an end result. I have been coding since 2 years now and am always learning new technologies and new ways to improve.</p>
+                    <div class='button-container' style='margin-top: 20px;'>
+                        <button onclick='favClrAlert()' id="color">My Favorite Color</button>
+                        <button onclick='favPlcAlert()' id="place">My Favorite Place</button>
+                        <button onclick='favRtlAlert()' id="ritual">My Favorite Ritual</button>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
 </html>

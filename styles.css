@@ -13,7 +13,7 @@ section{
     padding: 0 60px;
     margin: auto;
 }
-.about, .skills, button, footer, .interests{
+.about, .skills, button, .interests{
     font-family: 'Poppins', sans-serif;
 }
 section .title{
@@ -32,7 +32,7 @@ section .title::before{
     left: 50%;
     width: 180px;
     height: 3px;
-    background: #111;
+    background: #fff;
     transform: translateX(-50%);
 }
 section .title::after{
