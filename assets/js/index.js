@@ -7,6 +7,5 @@ function complimentMessage(x){
 // Send form
 let sendBtn = document.getElementById('send');
 function alertMessage() {
-	console.log('button working')
 	alert('Your message has been sent! Thank you!');
 }
