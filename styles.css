@@ -6,15 +6,21 @@
     text-decoration: none;
 }
 section{
-    padding: 70px 0;
+    padding-top: 60px 0;
+	margin-top: 30px;
 }
 .max-width{
     max-width: 2000px;
-    padding: 0 60px;
+    padding: 30 60px;
     margin: auto;
 }
-.about, .skills, button, .interests{
+.about-us {
+	color: #fff;
+	padding-top: 50px;
+}
+.about, .skills, button, .interests, .about-us{
     font-family: 'Poppins', sans-serif;
+	color: #fff;
 }
 section .title{
     position: relative;
@@ -93,6 +99,7 @@ body {
 
 /* home section styling */
 .home {
+	margin-top: 30px;
     display: flex;
     height: 30vh;
     color: #fff;
@@ -101,8 +108,8 @@ body {
     font-family: 'ubuntu', sans-serif;
 }
 .home img{
-    height: 400px;
-    width: 400px;
+    height: 350px;
+    width: 350px;
     object-fit: cover;
     border-radius: 50%;
     margin-right: 50px;
@@ -114,6 +121,11 @@ body {
 	color: #fff;
 	font-family: 'ubuntu', sans-serif;
 	list-style-type: none;
+}
+.text-2{
+    font-size: 25px;
+    font-weight: 600;
+    margin-left: -3px;
 }
 .home .max-width{
   width: 100%;
@@ -192,7 +204,8 @@ button{
     content: "What I Know";
 }
 .skills .skills-content .column{
-    width: calc(50% - 30px);
+    width: 100%;
+	margin-top: 30px;
 }
 .skills .skills-content .left .text{
     font-size: 20px;
@@ -246,20 +259,24 @@ button{
     background: orange;
 }
 .skills-content .right .html::before{
-    width: 40%;
+    width: 90%;
 }
 .skills-content .right .css::before{
-    width: 55%;
+    width: 90%;
 }
 .skills-content .right .js::before{
-    width: 30%;
+    width: 80%;
 }
 .skills-content .right .swift::before{
     width: 65%;
 }
 .skills-content .right .mysql::before{
-    width: 10%;
+    width: 50%;
 }
+.skills-content .right .react::before{
+    width: 80%;
+}
+
 
 /* contact section styling */
 .contact {
