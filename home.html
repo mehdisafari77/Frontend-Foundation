@@ -6,13 +6,19 @@
 
 </head>
 <body>
-	<nav>
-		<ol>
-	        <li class="crumb"><a href="./home.html">Home</a></li>
-	        <li class="crumb"><a href="./profile.html">Profile</a></li>
-	        <li class="crumb"><a href="./about.html">About</a></li>
-	    </ol>
-	</nav>
+    <!-- Navbar -->
+    <nav class="dropdown" class="navbar">    
+        <div class="max-width">
+                <div class="dropdown-content">
+                    <ul class="menu">
+                        <li><a href="./home.html" class="menu-btn">Home</a></li>
+                        <li><a href="./about.html">About</a></li>
+						<li><a href="./profile.html">Founder Profile</a></li>
+                    </ul>
+                </div> 
+            </div>
+        </div>
+    </nav>
 
 	<content>
 		<div class='text-content'> 
@@ -22,7 +28,8 @@
 			</p>
 		</div>
 		<div class="image-list">
-			<img 
+			<img
+			id='cat-image'
 			src="./cat.jpeg"
 			alt='cat image'
 			style='
