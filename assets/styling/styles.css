@@ -356,3 +356,15 @@ button{
   color: orange;
   background: none;
 }
+
+/* Location Section Styling */
+.location-box-container {
+    display: flex;
+}
+.initial-box {
+    height: 100px;
+    width: 100px;
+    border-radius: 20px;
+    background-image: url('https://images.pexels.com/photos/313782/pexels-photo-313782.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260');
+    background-size: contain;
+}
