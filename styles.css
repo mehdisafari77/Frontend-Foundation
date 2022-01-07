@@ -1,14 +1,17 @@
 body {
-  background: #ddd;
+  background-image: url('https://images.pexels.com/photos/1254736/pexels-photo-1254736.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+  background-size: cover;
   margin: 1rem;
   padding: 1rem;
-  max-width: 500px;
   margin: 2rem auto;
   font-family: "Open Sans", sans-serif;
 }
 
 nav {
 	border-bottom: 2px solid orange;
+}
+.checkbox {
+	display: flex;
 }
 
 ol {
