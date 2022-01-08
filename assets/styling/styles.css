@@ -22,7 +22,7 @@ section{
 }
 .about-us {
 	color: #fff;
-	padding-top: 50px;
+	padding-top: 40px;
 }
 .about, .skills, button, .interests, .about-us{
     font-family: 'Poppins', sans-serif;
@@ -362,9 +362,50 @@ button{
     display: flex;
 }
 .initial-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     height: 100px;
-    width: 100px;
+    width: 120px;
     border-radius: 20px;
     background-image: url('https://images.pexels.com/photos/313782/pexels-photo-313782.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260');
-    background-size: contain;
+    background-size: cover;
+    margin-left: 10px;
+}
+.initial-box p {
+    font-family: 'ubuntu', sans-serif;
+    font-size: large;
+}
+.secondary-box {
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 120px;
+    border-radius: 20px;
+    background-image: url('https://images.pexels.com/photos/1141853/pexels-photo-1141853.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260');
+    background-size: cover;
+}
+.secondary-box p {
+    font-family: 'ubuntu', sans-serif;
+    font-size: large;
+}
+.third-box {
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 120px;
+    border-radius: 20px;
+    background-image: url('https://images.pexels.com/photos/2695679/pexels-photo-2695679.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260');
+    background-size: cover;
+}
+.third-box p {
+    font-family: 'ubuntu', sans-serif;
+    font-size: large;
 }

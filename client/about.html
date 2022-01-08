@@ -19,12 +19,12 @@
     </nav>
 
 	<!-- abouts section -->
-    <section class="about-us" id="about-us">
-        <div class="max-width">
+    <section class="about-us" id="about-us" style="display: flex; align-items: center; justify-content: center;">
+        <div class="max-width" style="margin-top: 30px; display: flex; flex-direction: column; align-items: center; justify-content: center; width: 700px !important">
             <h2 class="title">About Catopia</h2>
-            <div class="about-content">
+            <div class="about-content" style="margin-top: -30px;">
                 <div class="column right">
-                    <p>I am fullstack developer experienced in both mobile web applications, mainly swift for IOS and am in training for web application experience. I am based in San Francisco, CA. I really enjoy creative design alongside development processes in order to create unique and exciting products as an end result. I have been coding since 2 years now and am always learning new technologies and new ways to improve.</p>
+                    <p>Catopia is the place to be when you have a cat. We are all cat lovers and we love supporting them. Here users are able to get what they need, talk to friends, find servicing locations and also shop for their beloved cats. We have 24/7 support through our contact form in our homepage, feel free to reach out to us through their.</p>
                     <div class='button-container' style='margin-top: 20px;'>
                         <button onclick='showLocations()' id="locations">View Locations</button>
                     </div>
@@ -36,17 +36,37 @@
     <!-- abouts section -->
     <section class="about-us" id="about-us">
         <div class="max-width">
-            <h2 class="title">Locations</h2>
+            <h2 class="title" >Locations</h2>
             <div class="about-content">
-                <div class="column right">
-                    <p style='text-align: center;'>Below are two of our members' favorite locations </p>
+                <div class="column right" style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
+                    <p style='text-align: center; margin-top: -20px;'>Below are three of our members' favorite locations. You can also get random restaurant locations in any of these places by tapping on their names. </p>
                     <div class='button-container' style='margin-top: 20px;'>
                         <div class='location-box-container'>
-                            <div class='initial-box'></div>
-                            <div class='secondary-box'></div>
+                            <button style='background-color: transparent;border: none; width: 120px !important; background-color: transparent; height: 100px; border-radius: 20px;'>
+                                <div class='initial-box'>
+                                    <p>
+                                        New York
+                                    </p>
+                                </div>
+                            </button>
+                            <button onClick='' style='background-color: transparent;border: none; width: 120px !important; background-color: transparent; height: 100px; border-radius: 20px;'>
+                                <div class='secondary-box'>
+                                    <p>
+                                        San Francisco
+                                    </p>
+                            </div>
+                            </button>
+                            <button style='background-color: transparent;border: none; width: 120px !important; background-color: transparent; height: 100px; border-radius: 20px;'>
+                                <div class='third-box'>
+                                    <p>
+                                        Los Angeles
+                                    </p>
+                                </div>
+                            </button>
                         </div>
+
                     </div>
-                    <button><a href="./home.html" style='color: #fff;'>Back Home</a></button>
+                    <button style="margin-top: 30px;"><a href="./home.html" style='color: #fff;'>Random Resturants</a></button>
                     
                 </div>
             </div>
